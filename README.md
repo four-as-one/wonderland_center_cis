@@ -1,7 +1,8 @@
+<!-- 產品／專案：wonderland_center_cis｜法人／事業體：水月道場有限合夥（WonderLand Center）[暫定]；登記狀態與設立沿革 [待確認]｜日期：2026-11-11（Asia/Taipei）｜草稿 v0.3 -->
 # wonderland_center_cis
-Wonderland.center 水月道場 官方旗艦入口、CIS 企業形象識別系統
+水月道場 / Wonderland Center 官方旗艦入口、CIS 企業形象識別系統
 # wonderland-center-corporate (C1-WC-CORP)
-> Wonderland.center 水月道場 官方旗艦入口、CIS 企業形象識別系統與協同作業規範
+> 水月道場 / Wonderland Center 官方旗艦入口、CIS 企業形象識別系統與協同作業規範
 
 ---
 
@@ -17,23 +18,23 @@ Wonderland.center 水月道場 官方旗艦入口、CIS 企業形象識別系統
 # 1. README.md
 
 ```markdown
-# Wonderland.center 水月道場（wonderland-center-corporate）
+# 水月道場 / Wonderland Center（wonderland-center-corporate）
 
-歡迎來到 **Wonderland.center 水月道場** 官方形象與平台核心門戶之原始碼儲存庫。本專案為「四即一、一即四」全球全域事業體之控制中樞入口與公共門戶。
+歡迎來到 **水月道場 / Wonderland Center** 官方形象與平台核心門戶之原始碼儲存庫。本專案為「四即一、一即四」全球全域事業體之控制中樞入口與公共門戶。
 
 ## 核心定位與願景
 
 > **「水月道場，以幻修真；千江有水千江月，萬里無雲萬里天。」**
 > 
-> 在科技浪潮與數位時代中，我們運用最前沿的資訊技術投入傳統、轉化傳統、重現人文溫情。Wonderland.center 不僅是一個法律實體（Legal Entity）的展示門戶，更是結合「群眾募資（Crowdfunding）」、「群眾發包（Crowdsourcing）」以及「非營利社會公益（Public Good）」的全球協同樞紐。
+> 在科技浪潮與數位時代中，我們運用最前沿的資訊技術投入傳統、轉化傳統、重現人文溫情。水月道場 / Wonderland Center 的法人名稱暫定為「水月道場有限合夥（WonderLand Center）」[暫定]，登記狀態、正式登記名稱與設立沿革 [待確認]；本平台結合「群眾募資（Crowdfunding）」、「群眾發包（Crowdsourcing）」以及「非營利社會公益（Public Good）」的全球協同樞紐。
 
 ### 「四即一、一即四」體系定位
-- **「一」之核心**：Wonderland.center 作為全域平台經濟的入口，對接全球資源、志工網絡、阿米巴組織與主權級金融資源。
+- **「一」之核心**：Wonderland Center 作為全域平台經濟的入口，對接全球資源、志工網絡、阿米巴組織與主權級金融資源。
 - **「四之四」之落地**：作為直接面向大眾（B2C）的心靈撫慰、生死關懷、公益動員母艦。
 - **三大初期群眾倡議**：
-  1. **讓往生者重現當世**（數位記憶重組與思念昇華）
+  1. **永恆記憶 EternalMemory（C2-WC-DMR）**：讓往生者重現當世（數位記憶重組與思念昇華）
   2. **《安寧緩和醫療條例》預立意願推廣**（健保卡註記與自主善終守護）
-  3. **不便出行長者之虛擬旅行陪伴**（沉浸式跨國走讀與世代共融）
+  3. **寰宇無界 SeniorTravel（C2-WC-VST；不便出行長者之虛擬旅行陪伴）**（沉浸式跨國走讀與世代共融）
 
 ---
 
@@ -96,12 +97,12 @@ npm run test:qa
 # 2. CIS_SPECIFICATION.md
 
 ```markdown
-# Wonderland.center 企業形象識別系統（CIS）設計規範手冊
+# Wonderland Center 企業形象識別系統（CIS）設計規範手冊
 
 ## 1. 品牌哲學與核心意象
 
 - **品牌中文全稱**：水月道場
-- **品牌英文全稱**：Wonderland.center
+- **品牌英文全稱**：Wonderland Center
 - **品牌核心精神**：**「因願而在，如約而行；虛實相濟，慈悲入世。」**
 - **視覺哲學**：
   取「水之至柔、月之清輝、鏡之澄澈、道場之安定」。拋棄傳統宗教場所的沉重或封閉感，融合前瞻科技感（如量子穿透、全同態隱私、光影干涉）與東方人文關懷（澄澈、留白、包容、安詳）。
@@ -171,7 +172,7 @@ npm run test:qa
 - **尺寸**：$90\text{ mm} \times 54\text{ mm}$。
 - **紙質指定**：350g 特級凝雪映畫紙或頂級純白棉卡。
 - **正面**：
-  - 水月青底色，左上角燙「澄心金」Logo 與「Wonderland.center 水月道場」。
+  - 水月青底色，左上角燙「澄心金」Logo 與「水月道場 / Wonderland Center」。
   - 人員姓名（繁體中文 思源黑體 Medium）、職稱。
   - 專屬身分識別 Hash 與對應之二維碼（對接至該成員之驗證頁或公開點數榮譽榜）。
 - **背面**：
@@ -198,7 +199,7 @@ npm run test:qa
 - **首屏三秒原則**：
   - 第一視覺：靜謐而震撼的高清晰水月光影 Canvas 動態渲染。
   - 主標題（H1）：「承諾，是留在人間唯一的真實。」
-  - 副標題：「Wonderland.center 水月道場——結合群眾之力與前瞻科技的全球庇護平台。」
+  - 副標題：「水月道場 / Wonderland Center——結合群眾之力與前瞻科技的全球庇護平台。」
   - 兩大核心按鈕（CTA）：
     1. `[ 探索初始群募倡議 ]`（實心澄心金底，玄墨字）
     2. `[ 加入阿米巴志工發包 ]`（透明水月青邊框，水月青字）
@@ -209,27 +210,27 @@ npm run test:qa
 # 3. REQUIREMENTS.md
 
 ```markdown
-# Wonderland.center 需求規格書（SRS）
+# Wonderland Center 需求規格書（SRS）
 
 ## 1. 系統範疇與業務目標
 
-本系統為 Wonderland.center Legal Entity 之旗艦官方入口，需在 2026 年底前完成高可靠性之全球資訊展示、群眾募資專案導覽、群眾發包活動公告，以及全球阿米巴志工資源點數之查詢入口。
+本系統為 水月道場 / Wonderland Center 之旗艦官方入口（法人名稱暫定為「水月道場有限合夥（WonderLand Center）」[暫定]；登記狀態及設立沿革 [待確認]），需在 2026 年底前完成高可靠性之全球資訊展示、群眾募資專案導覽、群眾發包活動公告，以及全球阿米巴志工資源點數之查詢入口。
 
 ---
 
 ## 2. 功能需求（Functional Requirements）
 
 ### FR-001：官方品牌與法人形象展示
-- **FR-001.1**：系統應完整展示 Wonderland.center 之法人設立沿革、使命宣言（Mission）、守諾哲學與願景。
+- **FR-001.1**：系統應完整展示 Wonderland Center 之法人設立沿革、使命宣言（Mission）、守諾哲學與願景。
 - **FR-001.2**：系統應提供符合 CIS 規範之高解析度資產下載專區（媒體套件 Media Kit、Logo 向量檔、白皮書 PDF）。
 - **FR-001.3**：多語系切換支援（初期支援：繁體中文 `zh-TW`、英文 `en-US`、日文 `ja-JP`）。
 
 ### FR-002：初始三大公益群募倡議專頁導流（B2C）
-- **FR-002.1**：**往生者重現當世（Digital Memory）**
+- **FR-002.1**：**永恆記憶 EternalMemory（C2-WC-DMR；往生者重現當世）**
   - 介面需以溫暖、莊重且具備科技敬意的方式呈現。
   - 提供預售與需求登記跳轉端點（指向 `wonderland-digital-memory-presale`）。
-  - 明確揭示交付期（預售開放後 3 個月排程交付）、隱私權保護邊界（個人生前語音影像資料絕不上公鏈，採受控私密保存）。
-- **FR-002.2**：**安寧緩和醫療意願註記推廣（Advance Care Directive）**
+  - 明確揭示交付期（2027-02-15，Asia/Taipei 日期，依 t12u；交付範圍與履約條件 [待確認]）、隱私權保護邊界（個人生前語音影像資料絕不上公鏈，採受控私密保存）。
+- **FR-002.2**：**善終守護 AdvanceCare（C2-WC-ACP；安寧緩和醫療意願註記推廣）**
   - 公益性衛教互動計算器：讓民眾了解預立安寧緩和醫療與器官捐贈註記至健保卡之法定權利與流程。
   - 志願諮詢預約與宣導手冊下載。
   - 導流至 `wonderland-advance-care-directive-presale` 專案頁。
@@ -269,7 +270,7 @@ npm run test:qa
 # 4. ARCHITECTURE.md
 
 ```markdown
-# Wonderland.center 系統架構與部署規範
+# Wonderland Center 系統架構與部署規範
 
 ## 1. 總體架構拓撲
 
@@ -360,7 +361,7 @@ wonderland-center-corporate/
 # 5. QA-ACCEPTANCE.md
 
 ```markdown
-# Wonderland.center 品質閘門與驗收測試規範
+# Wonderland Center 品質閘門與驗收測試規範
 
 本儲存庫遵循 PMO 七道品質閘門（7-Gate Quality Governance）流程。任何版本發布前，必須取得相應閘門之驗收確認。
 
@@ -415,3 +416,17 @@ wonderland-center-corporate/
 - [ ] **角色 Alias 寄送測試**：四個角色信箱可正常接收轉寄通知。
 - [ ] **QA 閘門 G1-G6 簽核**：由 QA Lead 於 GitHub Pull Request 留言核准。
 ```
+
+
+## v0.3 變更註記（2026-11-11，Asia/Taipei）
+
+僅修正本次涉及之品牌顯示名稱、網域文字及與 t12u 直接衝突的法人關係段落；repo／org、技術代碼、URL、路徑、分支及 email local part 均未變更。品牌與網域確認不代表內容核准；本文件為草稿 v0.3，其他來源規格僅供參考，未驗證的功能、效能、時程及合規不得視為核准。
+
+後續 CIS 全面採 PR 流程 [待確認]；本次起實際一律透過 PR，不直接推送 main。
+
+### 人工審核清單
+
+- 完整法定名稱、登記資訊、設立沿革、網域持有人與技術協作／託管契約仍以已確認錨點為限，其他 [待確認] 標註維持。
+- 既有版權權利人與授權條款未由本次品牌修訂推定變更；請確認 README 的版權行及 LICENSE 第 189 行 `Copyright [yyyy] [name of copyright owner]` 範本尚未填寫之權利人與年份。
+- 保留的技術 URL／徽章／代碼若含歷史文字，並非現行品牌或法人歸屬聲明；如需替換 URL 或改名須另行確認。
+- 其餘效能、法遵、交付與產品主張未經核驗，均待人工審核，不因本次修字或 PR 合併視為核准。
