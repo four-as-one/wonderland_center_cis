@@ -58,10 +58,10 @@
 
 | 專案角色 | 角色 Alias 信箱 | 責任邊界 |
 | :--- | :--- | :--- |
-| **Dev Lead** | `dev-wonderland-center-corporate@wonderland.center` | 前端開發、CI/CD Pipeline、資產打包審查 |
-| **Collaborator** | `collab-wonderland-center-corporate@wonderland.center` | 視覺設計師、文案編輯、Crowdsourcing 開發成員 |
-| **QA Lead** | `qa-wonderland-center-corporate@wonderland.center` | 執行 7 道 QA 閘門檢驗、驗收測試案例簽核 |
-| **Repo Admin** | `admin-wonderland-center-corporate@wonderland.center` | 分支保護（Branch Protection）、存取控制、發布簽署 |
+| **Dev Lead** | `dev-wonderland-center-corporate@wonderland.ngo` | 前端開發、CI/CD Pipeline、資產打包審查 |
+| **Collaborator** | `collab-wonderland-center-corporate@wonderland.ngo` | 視覺設計師、文案編輯、Crowdsourcing 開發成員 |
+| **QA Lead** | `qa-wonderland-center-corporate@wonderland.ngo` | 執行 7 道 QA 閘門檢驗、驗收測試案例簽核 |
+| **Repo Admin** | `admin-wonderland-center-corporate@wonderland.ngo` | 分支保護（Branch Protection）、存取控制、發布簽署 |
 
 ---
 
@@ -70,7 +70,7 @@
 依據 PMO 安全合約，**嚴禁將正式商用入口與牽涉捐款、個資、註記意願之交易系統直接託管於 GitHub Pages**。
 - **GitHub Pages**：僅用於內部 UI Review、設計規範展示（Style Guide）及開發者 Preview。
 - **正式發布目標**：
-  `GitHub Repo` $\rightarrow$ `GitHub Actions` $\rightarrow$ `Azure Static Web Apps (Enterprise Grade)` $\rightarrow$ 自訂網域 `https://wonderland.center`。
+  `GitHub Repo` $\rightarrow$ `GitHub Actions` $\rightarrow$ `Azure Static Web Apps (Enterprise Grade)` $\rightarrow$ 自訂網域 `https://wonderland.ngo`。
 
 ---
 
@@ -283,7 +283,7 @@ npm run test:qa
                           │
                           ▼
          [ Azure Static Web Apps (PROD) ]
-             Domain: wonderland.center
+             Domain: wonderland.ngo
                           │
      ┌────────────────────┴────────────────────┐
      ▼                                         ▼
@@ -408,7 +408,7 @@ wonderland-center-corporate/
 
 ## 3. 發布檢查單（Release Sign-off Checklist）
 
-在簽核發布至 `https://wonderland.center` 正式環境前，必須在 PR 內勾選完成：
+在簽核發布至 `https://wonderland.ngo` 正式環境前，必須在 PR 內勾選完成：
 
 - [ ] **CIS 一致性確認**：所有社群 Header、Favicon、Hero 頁面符合規範。
 - [ ] **多語系核對**：繁中、英文、日文文案校對無脫漏。
