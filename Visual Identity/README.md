@@ -1,9 +1,11 @@
 # Visual Identity
 
-【待人工審核】本目錄為視覺內容生成 Bot 依主 PMO 授權產出的視覺素材，僅供內部審核，未經主 PMO 核准不得對外使用。
+【待人工審核】本目錄為視覺內容生成 Bot 依主 PMO 授權產出的視覺素材，僅供內部審核，未經主 PMO 核准不得對外使用。本批不視為定稿。
 
-## batch1（2026-11-10，Asia/Taipei）
-依據：主 PMO 提供的「wonderland.center 視覺識別系統」提示詞（第一批：Logo 與 Hero 主視覺）。
+## batch1（2026-11-10 初稿；2026-11-23 依 wonderland.ngo 重製，Asia/Taipei）
+依據：主 PMO 提供的「wonderland.ngo 視覺識別系統」提示詞（第一批：Logo 與 Hero 主視覺）。
+
+2026-11-23（Asia/Taipei）更新：依規劃《07-wonderland-ngo-logo-重製規劃-v0.1.md》，將 `batch1/` 四張圖重製為 wonderland.ngo 版並替換本目錄檔案（檔名不變）。約 7 次生成（首輪 4 張 + 重跑 3 張）。費用為估算約 USD $0.56（工具未回報實際金額，標為估算）。首輪錯誤（多餘 © 列、curiosity→description）已由重跑修正。已知未修的原設計問題（看板／mockup 構圖、與既有 CIS 配色與形式差異、hero 僅 1280×720）依規劃維持不修。狀態維持【待人工審核】，不視為定稿。詳見 `batch1/log.md`。
 
 | 檔案 | 用途 |
 |---|---|
